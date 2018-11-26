@@ -5,7 +5,7 @@ def parse(s):
     ret = []
     for caracter in s:
         if caracter == "x" or caracter == " " or caracter == "m" or caracter == "v" or caracter == "o":
-            ret.append(caracter) # transformer la suite de caracteres en liste
+            ret.append(caracter)  # transformer la suite de caracteres en liste
         else:
             print("erreur1")
             sys.exit(-1)

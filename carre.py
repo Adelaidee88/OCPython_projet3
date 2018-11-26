@@ -7,8 +7,8 @@ class Square:
         self.y = y
         self.name = name
 
-    def salutation(self):
-        print("Bonjour !")
+    # def salutation(self):
+        # print("Bonjour !")
 
     def __str__(self):
         return str(self.x) + " " + str(self.y) + " " + str(self.name)
