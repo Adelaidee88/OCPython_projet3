@@ -1,4 +1,4 @@
-from carre import *
+from square import *
 
 
 class Map:

@@ -1,7 +1,8 @@
 import sys
 
+
 def parse(s):
-    #print(len(s))
+    """Put a string of 15 characters into a list if they are x, " ", m, v or o"""
     ret = []
     for caracter in s:
         if caracter == "x" or caracter == " " or caracter == "m" or caracter == "v" or caracter == "o":
