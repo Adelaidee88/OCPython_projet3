@@ -6,4 +6,4 @@ class Macgyver:
         self.x = x
         self.y = y
         self.name = name
-        self.loot = [False, False, False]  # liste de loot
+        self.loot = [False, False, False]  # says if MacG picked a loot or not

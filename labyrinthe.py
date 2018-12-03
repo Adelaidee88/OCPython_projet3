@@ -12,16 +12,16 @@ from map import Map
 laby = open("maze.txt", "r")  # open file maze.txt
 contenu = laby.read()  # return file content
 
-maze = []  # création de la liste finale du laby
-maze_list = []  # création de la liste de liste de ligne
-maze_str = contenu.splitlines()  # séparation de chaque ligne du fichier en liste de chaines de caractères
+maze = []  # create empty final list for the labyrinth
+maze_list = []  # create empty list of lines list
+maze_str = contenu.splitlines()  # separate each line of file as string
 
 
 for line in maze_str:
-    maze_list.append(parse(line))  # on parse chaque ligne de caractère pour avoir une liste de listes
+    maze_list.append(parse(line))  # parse function to fill the list
 
 for line in maze_list:
-    maze.append(parse(line))  # on parse chaque liste de listes
+    maze.append(parse(line))  # parse function to fill the final list
 
 
 def way():
@@ -91,19 +91,19 @@ def draw_laby():
         i = i + 40
 
 
-macgyver = Macgyver(520, 40, "m")  # création de l'objet MacG
-murdock = Murdock(520, 560, "murdock") # création de l'objet Murdock
+macgyver = Macgyver(520, 40, "m")  # create Macgyver object
+murdock = Murdock(520, 560, "murdock") # create Murdock object
 
-objects = random.sample(way(), 3)  # prend 3 positions dans la liste de cases vides créée par la fonction way()
+objects = random.sample(way(), 3)  # take 3 random positions in the list created by the way function
 
-needle = objects[0]  # l'aiguille est le premier objet de la liste random
-pos_needle = Loot(needle.x*40, needle.y*40, "needle")  # création de l'objet needle
+needle = objects[0]  # the needle correspond to the first object of the random list
+pos_needle = Loot(needle.x*40, needle.y*40, "needle")  # create needle as a Loot object
 
-tube = objects[1]  # le tube est le deuxième objet de la liste random
-pos_tube = Loot(tube.x*40, tube.y*40, "tube")  # création de l'objet tube
+tube = objects[1]  # the tube correspond to the second object of the random list
+pos_tube = Loot(tube.x*40, tube.y*40, "tube")  # crete tube as a Loot object
 
-ether = objects[2]  # l'ether est le troisième objet de la liste random
-pos_ether = Loot(ether.x*40, ether.y*40, "ether")  # création de l'objet ether
+ether = objects[2]  # the ethere correspond to the third object of the random list
+pos_ether = Loot(ether.x*40, ether.y*40, "ether")  # create ether as a Loot object
 
 win = False
 lose = False
@@ -112,50 +112,50 @@ end = False
 while 1:
     for event in pygame.event.get():
 
-        # déplacement
+        # move
         if end == False:
             if event.type == pygame.KEYDOWN :
-                if event.key == pygame.K_LEFT:  # si flèche gauche
+                if event.key == pygame.K_LEFT:  # if left arrow
                     if maze[macgyver.x//40 - 1][macgyver.y//40] == " ":
-                        macgyver.x = macgyver.x - 40  # se déplace vers la gauche
+                        macgyver.x = macgyver.x - 40  # move left
                     else:
                         pygame.mixer.music.play()
-                elif event.key == pygame.K_UP:  # si flèche haut
+                elif event.key == pygame.K_UP:  # if up arrow
                     if maze[macgyver.x//40][macgyver.y//40 - 1] == " ":
-                        macgyver.y = macgyver.y - 40  # se déplace vers le haut
+                        macgyver.y = macgyver.y - 40  # move up
                     else:
                         pygame.mixer.music.play()
-                elif event.key == pygame.K_RIGHT:  # si flèche droite
+                elif event.key == pygame.K_RIGHT:  # if right arrow
                     if maze[macgyver.x//40 + 1][macgyver.y//40] == " ":
-                        macgyver.x = macgyver.x + 40  # se déplace vers la droite
+                        macgyver.x = macgyver.x + 40  # move right
                     else:
                         pygame.mixer.music.play()
-                elif event.key == pygame.K_DOWN:  # si flèche bas
+                elif event.key == pygame.K_DOWN:  # if down arrow
                     if maze[macgyver.x//40][macgyver.y//40 + 1] == " " or maze[macgyver.x//40][macgyver.y//40 + 1] == "v":
-                        macgyver.y = macgyver.y + 40  # se déplace vers le bas
+                        macgyver.y = macgyver.y + 40  # move down
                     else:
-                        pygame.mixer.music.play()  # joue le bruit de collision
+                        pygame.mixer.music.play()  # play collision sound
                 else:
                     pass
 
-            # loot des objets
-            if macgyver.x == pos_needle.x and macgyver.y == pos_needle.y:  # si MacG arrive sur l'aiguille
+            # loot
+            if macgyver.x == pos_needle.x and macgyver.y == pos_needle.y:  # if MacGyver reaches needle
                 pos_needle.picked = True
                 macgyver.loot[0] = True
-            if macgyver.x == pos_tube.x and macgyver.y == pos_tube.y:  # si MacG arrive sur le tube
+            if macgyver.x == pos_tube.x and macgyver.y == pos_tube.y:  # if MacGyver reaches tube
                 pos_tube.picked = True
                 macgyver.loot[1] = True
-            if macgyver.x == pos_ether.x and macgyver.y == pos_ether.y:  # si MacG arrive sur l'ether
+            if macgyver.x == pos_ether.x and macgyver.y == pos_ether.y:  # if MacGyver reaches ether
                 pos_ether.picked = True
                 macgyver.loot[2] = True
 
-        # fin du jeu
-        if macgyver.x == murdock.x and macgyver.y == murdock.y:  # MacG arrive sur Murdock
+        # endgame
+        if macgyver.x == murdock.x and macgyver.y == murdock.y:  # if MacGyver reaches Murdock
             end = True
             if macgyver.loot[0] and macgyver.loot[1] and macgyver.loot[2]:
                 win = True
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_c:  # relance le jeu
+                    if event.key == pygame.K_c:  # replay the game
                         # regrouper toutes ces conditions dans un truc "conditions initiales"
                         win = False
                         lose = False
@@ -168,14 +168,14 @@ while 1:
                         macgyver.loot[2] = False
                         macgyver = Macgyver(520, 40, "m")
                         # coordonnées aléatoires des loots
-                    if event.key == pygame.K_ESCAPE:
+                    if event.key == pygame.K_ESCAPE:  # close the game
                         sys.exit()
                     else:
                         pass
             else:
                 lose = True
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_c:  # relance le jeu
+                    if event.key == pygame.K_c:  # replay the game
                         # regrouper toutes ces conditions dans un truc "conditions initiales"
                         win = False
                         lose = False
@@ -188,7 +188,7 @@ while 1:
                         macgyver.loot[2] = False
                         macgyver = Macgyver(520, 40, "m")
                         # coordonnées aléatoires des loots
-                    if event.key == pygame.K_ESCAPE:
+                    if event.key == pygame.K_ESCAPE:  # close the game
                         sys.exit()
                     else:
                         pass
@@ -196,23 +196,23 @@ while 1:
             sys.exit()
 
 
-    # affichage
-    draw_laby()  # affiche le labyrinthe
-    windowSurface.blit(img_macgyver, (macgyver.x, macgyver.y))  # affiche MacGyver
+    # display
+    draw_laby()  # display labyrinth
+    windowSurface.blit(img_macgyver, (macgyver.x, macgyver.y))  # display MacGyver
     if pos_needle.picked == False:
-        windowSurface.blit(img_needle, (pos_needle.x, pos_needle.y))  # affiche l'aiguille dans le labyrinthe
+        windowSurface.blit(img_needle, (pos_needle.x, pos_needle.y))  # display needle on the labyrinth
     else:
-        windowSurface.blit(inv_needle, (0, 0))  # affiche l'aiguille dans l'inventaire
+        windowSurface.blit(inv_needle, (0, 0))  # display needle in the inventory
     if pos_tube.picked == False:
-        windowSurface.blit(img_tube, (pos_tube.x, pos_tube.y))  # affiche le tube dans le labyrinthe
+        windowSurface.blit(img_tube, (pos_tube.x, pos_tube.y))  # display tube on the labyrinth
     else:
-        windowSurface.blit(inv_tube, (0, 40))  # affiche le tube dans l'inventaire
+        windowSurface.blit(inv_tube, (0, 40))  # display tube in the inventory
     if pos_ether.picked == False:
-        windowSurface.blit(img_ether, (pos_ether.x, pos_ether.y))  # affiche l'ether dans le labyrinthe
+        windowSurface.blit(img_ether, (pos_ether.x, pos_ether.y))  # display ether in the labyrinth
     else:
-        windowSurface.blit(inv_ether, (0, 80))  # affiche l'ether dans l'inventaire
+        windowSurface.blit(inv_ether, (0, 80))  # display ether in the inventory
     if win == True:
-        windowSurface.blit(screen_win, (0, 0))  # affiche l'écran de victoire
+        windowSurface.blit(screen_win, (0, 0))  # display victory screen
     if lose == True:
-        windowSurface.blit(screen_lose, (0, 0))  # affiche l'écran de défaite
+        windowSurface.blit(screen_lose, (0, 0))  # display defeat screen
     pygame.display.update()
