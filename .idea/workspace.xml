@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254e1601-532f-4b55-9337-90dca824009e" name="Default Changelist" comment="ajout déplacement mac et positionnement aléatoire des objets">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bonk.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ether_loot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murdock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/needle_loot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen_lose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screen_win.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tube_loot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screen_lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screen_win.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carre.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laby_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bonk.wav" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bonk.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ether.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ether.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ether_loot.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ether_loot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labyrinthe.py" beforeDir="false" afterPath="$PROJECT_DIR$/labyrinthe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loot.py" beforeDir="false" afterPath="$PROJECT_DIR$/loot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macgyver.py" beforeDir="false" afterPath="$PROJECT_DIR$/macgyver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maze.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maze.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mur.png" beforeDir="false" afterPath="$PROJECT_DIR$/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/needle.png" beforeDir="false" afterPath="$PROJECT_DIR$/needle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sol.png" beforeDir="false" afterPath="$PROJECT_DIR$/ground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/square.py" beforeDir="false" afterPath="$PROJECT_DIR$/square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macg.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/macg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/murd.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/murd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/needle.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/needle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/needle_loot.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/needle_loot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen_lose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen_win.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tube.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/tube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tube_loot.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/tube_loot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/wall.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labyrinthe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1071">
-              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="2533">
+              <caret line="176" column="48" lean-forward="true" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -50,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/macgyver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -59,16 +55,7 @@
         <entry file="file://$PROJECT_DIR$/murdock.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -82,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -95,11 +82,7 @@
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <marker date="1543494453337" expanded="true" signature="33:34" ph="..." />
-                <marker date="1543494453337" expanded="true" signature="33:39" ph="..." />
-              </folding>
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -138,18 +121,18 @@
         <option value="$PROJECT_DIR$/carre.py" />
         <option value="$PROJECT_DIR$/maze.txt" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/labyrinthe.py" />
         <option value="$PROJECT_DIR$/macgyver.py" />
         <option value="$PROJECT_DIR$/murdock.py" />
         <option value="$PROJECT_DIR$/loot.py" />
         <option value="$PROJECT_DIR$/parse.py" />
+        <option value="$PROJECT_DIR$/labyrinthe.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="157" />
     <option name="y" value="48" />
-    <option name="width" value="1694" />
+    <option name="width" value="1674" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,8 +145,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet" type="462c0819:PsiDirectoryNode" />
+              <item name="OCPython_projet3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCPython_projet3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +156,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\AdL\Boulot\OC\Python\Projet3\OCPython_projet3\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,15 +343,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="48" width="1694" height="1000" extended-state="0" />
+    <frame x="157" y="48" width="1674" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22644928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2292176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,23 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carre.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pygame_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/carre.py" />
+    <entry file="file://$PROJECT_DIR$/pygame_test.py" />
     <entry file="file://$PROJECT_DIR$/square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -427,31 +401,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laby_base.py">
+    <entry file="file://$PROJECT_DIR$/laby_base.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/loot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/labyrinthe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="2533">
+          <caret line="176" column="48" lean-forward="true" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
+    <entry file="file://$PROJECT_DIR$/macgyver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1543494453337" expanded="true" signature="33:34" ph="..." />
-            <marker date="1543494453337" expanded="true" signature="33:39" ph="..." />
-          </folding>
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/murdock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -462,41 +441,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labyrinthe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/macgyver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/murdock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parse.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
