@@ -4,9 +4,6 @@
     <list default="true" id="254e1601-532f-4b55-9337-90dca824009e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labyrinthe.py" beforeDir="false" afterPath="$PROJECT_DIR$/labyrinthe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macgyver.py" beforeDir="false" afterPath="$PROJECT_DIR$/macgyver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/square.py" beforeDir="false" afterPath="$PROJECT_DIR$/square.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labyrinthe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3706">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <state relative-caret-position="238">
+              <caret line="164" column="48" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -82,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/square.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -125,11 +122,11 @@
         <option value="$PROJECT_DIR$/maze.txt" />
         <option value="$PROJECT_DIR$/murdock.py" />
         <option value="$PROJECT_DIR$/loot.py" />
-        <option value="$PROJECT_DIR$/labyrinthe.py" />
         <option value="$PROJECT_DIR$/macgyver.py" />
         <option value="$PROJECT_DIR$/parse.py" />
         <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/square.py" />
+        <option value="$PROJECT_DIR$/labyrinthe.py" />
       </list>
     </option>
   </component>
@@ -145,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,6 +153,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,14 +347,20 @@
       <option name="project" value="LOCAL" />
       <updated>1543843802468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="english translation">
+      <created>1543849310656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543849310656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="48" width="1674" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2292176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2292176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,7 +371,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -379,7 +382,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout déplacement mac et positionnement aléatoire des objets" />
     <MESSAGE value="Jeu fonctionnel, manque finalisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jeu fonctionnel, manque finalisation" />
+    <MESSAGE value="english translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="english translation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/square" />
@@ -407,11 +411,25 @@
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/labyrinthe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3706">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="238">
+          <caret line="164" column="48" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/macgyver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/murdock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -440,20 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/murdock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/macgyver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>

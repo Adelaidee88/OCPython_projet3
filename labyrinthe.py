@@ -10,11 +10,11 @@ from map import Map
 
 
 laby = open("maze.txt", "r")  # open file maze.txt
-contenu = laby.read()  # return file content
+content = laby.read()  # return file content
 
 maze = []  # create empty final list for the labyrinth
 maze_list = []  # create empty list of lines list
-maze_str = contenu.splitlines()  # separate each line of file as string
+maze_str = content.splitlines()  # separate each line of file as string
 
 
 for line in maze_str:
@@ -100,9 +100,9 @@ needle = objects[0]  # the needle correspond to the first object of the random l
 pos_needle = Loot(needle.x*40, needle.y*40, "needle")  # create needle as a Loot object
 
 tube = objects[1]  # the tube correspond to the second object of the random list
-pos_tube = Loot(tube.x*40, tube.y*40, "tube")  # crete tube as a Loot object
+pos_tube = Loot(tube.x*40, tube.y*40, "tube")  # create tube as a Loot object
 
-ether = objects[2]  # the ethere correspond to the third object of the random list
+ether = objects[2]  # the ether correspond to the third object of the random list
 pos_ether = Loot(ether.x*40, ether.y*40, "ether")  # create ether as a Loot object
 
 win = False
@@ -155,8 +155,7 @@ while 1:
             if macgyver.loot[0] and macgyver.loot[1] and macgyver.loot[2]:
                 win = True
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_c:  # replay the game
-                        # regrouper toutes ces conditions dans un truc "conditions initiales"
+                    if event.key == pygame.K_c:  # replay the game, reload initial conditions
                         win = False
                         lose = False
                         end = False
@@ -167,7 +166,13 @@ while 1:
                         pos_ether.picked = False
                         macgyver.loot[2] = False
                         macgyver = Macgyver(520, 40, "m")
-                        # coordonnées aléatoires des loots
+                        objects = random.sample(way(), 3)
+                        needle = objects[0]
+                        pos_needle = Loot(needle.x * 40, needle.y * 40, "needle")
+                        tube = objects[1]
+                        pos_tube = Loot(tube.x * 40, tube.y * 40, "tube")
+                        ether = objects[2]
+                        pos_ether = Loot(ether.x * 40, ether.y * 40, "ether")
                     if event.key == pygame.K_ESCAPE:  # close the game
                         sys.exit()
                     else:
@@ -175,8 +180,7 @@ while 1:
             else:
                 lose = True
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_c:  # replay the game
-                        # regrouper toutes ces conditions dans un truc "conditions initiales"
+                    if event.key == pygame.K_c:  # replay the game, reload initial conditions
                         win = False
                         lose = False
                         end = False
@@ -187,7 +191,13 @@ while 1:
                         pos_ether.picked = False
                         macgyver.loot[2] = False
                         macgyver = Macgyver(520, 40, "m")
-                        # coordonnées aléatoires des loots
+                        objects = random.sample(way(), 3)
+                        needle = objects[0]
+                        pos_needle = Loot(needle.x * 40, needle.y * 40, "needle")
+                        tube = objects[1]
+                        pos_tube = Loot(tube.x * 40, tube.y * 40, "tube")
+                        ether = objects[2]
+                        pos_ether = Loot(ether.x * 40, ether.y * 40, "ether")
                     if event.key == pygame.K_ESCAPE:  # close the game
                         sys.exit()
                     else:
