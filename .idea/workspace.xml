@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="254e1601-532f-4b55-9337-90dca824009e" name="Default Changelist" comment="" />
+    <list default="true" id="254e1601-532f-4b55-9337-90dca824009e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/labyrinthe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="428">
@@ -22,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -127,7 +129,6 @@
         <option value="$PROJECT_DIR$/carre.py" />
         <option value="$PROJECT_DIR$/maze.txt" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/sprite.py" />
         <option value="$PROJECT_DIR$/macgyver.py" />
         <option value="$PROJECT_DIR$/murdock.py" />
@@ -135,6 +136,7 @@
         <option value="$PROJECT_DIR$/loot.py" />
         <option value="$PROJECT_DIR$/square.py" />
         <option value="$PROJECT_DIR$/labyrinthe.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -395,6 +397,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="48" width="1674" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2292176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sprite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -530,6 +526,13 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
