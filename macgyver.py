@@ -7,3 +7,6 @@ class Macgyver:
         self.y = y
         self.name = name
         self.loot = [False, False, False]  # says if MacG picked a loot or not
+
+if __name__ == "__main__":
+    pass

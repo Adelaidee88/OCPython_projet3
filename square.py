@@ -8,3 +8,6 @@ class Square:
 
     def __str__(self):
         return str(self.x) + " " + str(self.y) + " " + str(self.name)
+
+if __name__ == "__main__":
+    pass

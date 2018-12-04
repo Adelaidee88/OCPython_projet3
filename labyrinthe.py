@@ -99,7 +99,7 @@ class Labyrinth:
 
     def mac_move(self, event):
         if event.key == pygame.K_LEFT:  # if left arrow
-            if maze[self.macgyver.x // 40 - 1][self.macgyver.y // 40] == " ":
+            if maze[self.macgyver.x // 40 - 1][self.macgyver.y // 40] == " " or maze[self.macgyver.x // 40][self.macgyver.y // 40 + 1] == "m":
                 self.macgyver.x = self.macgyver.x - 40  # move left
             else:
                 pygame.mixer.music.play()
@@ -189,5 +189,6 @@ class Labyrinth:
             windowSurface.blit(self.sprite.screen_lose, (0, 0))  # display defeat screen
         pygame.display.update()
 
-labyrinth = Labyrinth()
-labyrinth.game_loop()
+if __name__ == "__main__":
+    labyrinth = Labyrinth()
+    labyrinth.game_loop()

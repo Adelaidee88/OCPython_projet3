@@ -5,3 +5,6 @@ class Murdock:
         self.x = x
         self.y = y
         self.name = name
+
+if __name__ == "__main__":
+    pass

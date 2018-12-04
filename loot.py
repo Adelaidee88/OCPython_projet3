@@ -6,3 +6,6 @@ class Loot:
         self.y = y
         self.name = name
         self.picked = False
+
+if __name__ == "__main__":
+    pass

@@ -14,3 +14,6 @@ def parse(s):
         print("erreur2") # if the length of the list is different of 15
         sys.exit(-1)           # exit the program
     return ret
+
+if __name__ == "__main__":
+    pass
