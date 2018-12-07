@@ -1,5 +1,6 @@
 class Square:
-    """Define a case of the labyrinth with its coordinates and its name value"""
+    """Define a case of the labyrinth
+    with its coordinates and its name value"""
 
     def __init__(self, x, y, name):
         self.x = x
@@ -7,7 +8,5 @@ class Square:
         self.name = name
 
     def __str__(self):
-        return str(self.x) + " " + str(self.y) + " " + str(self.name)
-
-if __name__ == "__main__":
-    pass
+        return str(self.x) + " " + \
+               str(self.y) + " " + str(self.name)

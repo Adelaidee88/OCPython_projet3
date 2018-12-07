@@ -1,6 +1,7 @@
 import pygame
 
-class Sprite :
+
+class Sprite:
 
     def __init__(self):
         self.img_mur = pygame.image.load("resources/wall.png")
@@ -15,6 +16,3 @@ class Sprite :
         self.inv_ether = pygame.image.load("resources/ether_loot.png")
         self.screen_win = pygame.image.load("resources/screen_win.png")
         self.screen_lose = pygame.image.load("resources/screen_lose.png")
-
-if __name__ == "__main__":
-    pass
